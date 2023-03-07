@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(SUMACUADRADOS LANGUAGES C)
+
+add_executable(SUMACUADRADOS main.c)
+
+install(TARGETS SUMACUADRADOS
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
